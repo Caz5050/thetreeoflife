@@ -54,7 +54,7 @@ main {
     position: relative;
     color: #333;
     
-    background-image: url(image/wallpapertitle.png);
+    background-image: url(https://github.com/Caz5050/thetreeoflife/blob/main/images/wallpapertitle.png?raw=true);
     margin-top: 0px;
     padding: 0px;
     margin-left: -20px;
@@ -82,7 +82,7 @@ main {
 }
 
 .gamedescription {
-    background-image: url(image/wallpaper3.png);
+    background-image: url(https://github.com/Caz5050/thetreeoflife/blob/main/images/wallpaper3.png?raw=true);
     margin-top: 0px;
     padding: 0px;
     margin-left: -20px;
