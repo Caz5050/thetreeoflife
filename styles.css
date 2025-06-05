@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(60, 93%, 84%)
+}
+
+header{
+    font-family: Bebas Neue;
+    display: block;
+    background-color: hsl(0, 0%, 0%);
+    font-family: Bebas Neue;
+    letter-spacing: 0.65em;
+    padding: 1px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+header i{
+    color: white;
+    margin-bottom: 10px;
+    transform: translateY(-10px);
+}
+header a{
+    text-decoration: none;
+}
+
+
+header i:hover{
+    transition: transform 0.3s ease;
+    transform: translateY(-15px);
+}
+
+body {
+    font-family: Cinzel;
+    font-weight: 600;
+    background-color: #f7fde7;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;;
+}
+
+main {
+    margin-top: 0px;;
+    padding: 20px;
+}
+
+.gametitle{
+    font-size: 6em;
+    white-space: nowrap;
+    text-align: center;
+    position: relative;
+    color: #333;
+    
+    background-image: url(image/wallpapertitle.png);
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    transform: translateY(-20px);
+}
+
+.gametitle img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    filter: drop-shadow(0 4px 12px rgba(0,0,0,0.5));
+}
+.gametitle h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -120%);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+
+}
+
+.gamedescription {
+    background-image: url(image/wallpaper3.png);
+    margin-top: 0px;
+    padding: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+
+    
+}
+
+.gamedescription p {
+    font-family: EB Garamond;
+    padding: 300px;
+    text-align: justify;
+    text-align-last: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.8);
+
+}
+
+.game-details-box {
+    display: block;
+    width: 40%;
+    font-family: EB Garamond;
+    font-weight: 200;
+    margin: 0px;
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background-color: rgb(54, 56, 39);
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.game-details-box ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.download-box {
+    display: block;
+    width: 40%;
+    font-family: cinzel;
+    font-size: 2em;
+    font-weight: 200;
+    margin: 0 auto;
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background-color: rgb(135, 138, 110);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.8);
+    padding: 30px;
+}
+.details-list {
+    margin: 20px;
+    background-color: rgb(67, 83, 61);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style buttons */
+.btn {
+  font-family: Garamond;
+  background-color: rgb(33, 105, 89);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(10, 53, 33);
+}
+
+footer {
+    display: block; 
+    clear:both;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+
+}
+
+
